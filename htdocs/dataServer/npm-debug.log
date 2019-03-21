@@ -1,0 +1,89 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'websocket-server' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json watchfile@1.0.0 No description
+5 warn package.json watchfile@1.0.0 No repository field.
+6 warn package.json watchfile@1.0.0 No README data
+7 warn package.json events@1.0.2 events is also the name of a node core module.
+8 warn package.json fs@0.0.2 fs is also the name of a node core module.
+9 warn package.json fs@0.0.2 No description
+10 warn package.json fs@0.0.2 No repository field.
+11 warn package.json fs@0.0.2 No README data
+12 warn package.json http@0.0.0 http is also the name of a node core module.
+13 warn package.json http@0.0.0 No description
+14 warn package.json http@0.0.0 No repository field.
+15 warn package.json http@0.0.0 No README data
+16 warn package.json websocket.io@0.2.1 No repository field.
+17 warn package.json net@1.0.2 net is also the name of a node core module.
+18 warn package.json net@1.0.2 'repositories' (plural) Not supported. Please pick one as the 'repository' field
+19 warn package.json net@1.0.2 No README data
+20 verbose readDependencies using package.json deps
+21 verbose cache add [ 'websocket-server', null ]
+22 verbose cache add name=undefined spec="websocket-server" args=["websocket-server",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'websocket-server',
+23 verbose parsed url   path: 'websocket-server',
+23 verbose parsed url   href: 'websocket-server' }
+24 silly lockFile c1a6b386-websocket-server websocket-server
+25 verbose lock websocket-server /home/sakaguti/.npm/c1a6b386-websocket-server.lock
+26 silly lockFile c1a6b386-websocket-server websocket-server
+27 silly lockFile c1a6b386-websocket-server websocket-server
+28 verbose addNamed [ 'websocket-server', '' ]
+29 verbose addNamed [ null, '*' ]
+30 silly lockFile e7aeb222-websocket-server websocket-server@
+31 verbose lock websocket-server@ /home/sakaguti/.npm/e7aeb222-websocket-server.lock
+32 silly addNameRange { name: 'websocket-server', range: '*', hasData: false }
+33 verbose request where is /websocket-server
+34 verbose request registry https://registry.npmjs.org/
+35 verbose request id 4dce8d10614fcaf2
+36 verbose url raw /websocket-server
+37 verbose url resolving [ 'https://registry.npmjs.org/', './websocket-server' ]
+38 verbose url resolved https://registry.npmjs.org/websocket-server
+39 verbose request where is https://registry.npmjs.org/websocket-server
+40 info trying registry request attempt 1 at 11:59:02
+41 verbose etag "DJONW91N9FQVBBKD9N953LXLT"
+42 http GET https://registry.npmjs.org/websocket-server
+43 http 404 https://registry.npmjs.org/websocket-server
+44 silly registry.get cb [ 404,
+44 silly registry.get   { date: 'Wed, 31 Dec 2014 02:59:03 GMT',
+44 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+44 silly registry.get     etag: '"DJONW91N9FQVBBKD9N953LXLT"',
+44 silly registry.get     'content-type': 'application/json',
+44 silly registry.get     'cache-control': 'max-age=0',
+44 silly registry.get     'content-length': '1689',
+44 silly registry.get     'accept-ranges': 'bytes',
+44 silly registry.get     via: '1.1 varnish',
+44 silly registry.get     age: '0',
+44 silly registry.get     'x-served-by': 'cache-ty68-TYO',
+44 silly registry.get     'x-cache': 'MISS',
+44 silly registry.get     'x-cache-hits': '0',
+44 silly registry.get     'x-timer': 'S1419994743.242277,VS0,VE201',
+44 silly registry.get     vary: 'Accept',
+44 silly registry.get     'keep-alive': 'timeout=10, max=50',
+44 silly registry.get     connection: 'Keep-Alive' } ]
+45 silly lockFile e7aeb222-websocket-server websocket-server@
+46 silly lockFile e7aeb222-websocket-server websocket-server@
+47 error 404 Not Found
+47 error 404
+47 error 404 'websocket-server' is not in the npm registry.
+47 error 404 You should bug the author to publish it
+47 error 404 It was specified as a dependency of 'watchfile'
+47 error 404
+47 error 404 Note that you can also install from a
+47 error 404 tarball, folder, or http url, or git url.
+48 error System Linux 3.10.17-poky-edison+
+49 error command "/usr/bin/node" "/usr/bin/npm" "install" "websocket-server"
+50 error cwd /mnt/home/sakaguti/Node/watchfile
+51 error node -v v0.10.32
+52 error npm -v 1.4.28
+53 error code E404
+54 verbose exit [ 1, true ]

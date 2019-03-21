@@ -1,0 +1,14 @@
+[Unit]
+Decription=The datServer Server port 8100
+After=apache2.service
+
+[Service]
+Type=simple
+Environment=LANG=C
+ExecStart=/home/pi/Node/dataServer/start.sh
+ExecStop=/bin/kill -WINCH ${MAINPID}
+KillSignal=SIGCONT
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
